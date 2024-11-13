@@ -1,17 +1,13 @@
 # Consumer-Goods-Ad-hoc-Insights
 ## Project objective:
 ### Tables Used:
- dim_customer
+1.dim_customer: contains customer-related data
+2.dim_product: contains product-related data
+3.fact_gross_price: contains gross price information for each product
+4.fact_manufacturing_cost: contains the cost incurred in the production of each product
+5.fact_pre_invoice_deductions: contains pre-invoice deductions information for each product
+6.fact_sales_monthly: contains monthly sales data for each product.
  
- dim_product
- 
- fact_sales_monthly
- 
- fact_gross_price
- 
- fact_pre_invoice_deductions
- 
- fact_post_invoice_deductions
  
 ### Total Database: 
 1425706 (approximately 1.43 million records)
